@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BMI Details</string>
+    <string name="mass_index_hint">0.00</string>
+    <string name="share_btn_text">Share</string>
+    <string name="rate_btn_text">Rate</string>
+    <string name="body_mass_index_text">BODY MASS INDEX</string>
+    <string name="hello_tv_text">HELLO, OLIVIA, YOU ARE NORMAL</string>
+    <string name="bmi_range_tv_text">Normal BMI range: 18.5 kg/m2 - 25 kg/m2</string>
+    <string name="ponderal_index_tv_text">Ponderal index: 10.64 kg/m3</string>
+</resources>
