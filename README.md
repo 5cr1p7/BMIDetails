@@ -2,6 +2,6 @@ Simple screen. All the images, fonts, margins and paddings were taken from bmi02
 
 [Download .apk file](https://github.com/5cr1p7/BMIDetails/raw/master/app/release/app-release.apk)
 
-![working_sample](/images/bmi_details.gif)
-![empty_et_image](/images/empty_et.png)
-![filled_et_image](/images/filled_et.png)
+<img alt="working_sample" src="/images/bmi_details.gif" width="250" height="500"/>
+<img alt="empty_et_image" src="/images/empty_et.png" width="250" height="500"/>
+<img alt="filled_et_image" src="/images/filled_et.png" width="250" height="500"/>
