@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/addDetailsFragment">
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.ramilkapev.bmidetails.details.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="bmi"
+            app:argType="float" />
+        <argument
+            android:name="ponderalIndex"
+            app:argType="float" />
+        <action
+            android:id="@+id/action_detailsFragment_to_addDetailsFragment"
+            app:destination="@id/addDetailsFragment"
+            app:popUpTo="@id/addDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addDetailsFragment"
+        android:name="com.ramilkapev.bmidetails.addDetails.AddDetailsFragment"
+        android:label="AddDetailsFragment" >
+        <action
+            android:id="@+id/action_addDetailsFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+</navigation>

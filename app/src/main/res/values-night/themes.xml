@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.BMIDetails" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.BMIDetails" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/main_screen_color</item>
+        <item name="colorPrimaryVariant">@color/main_screen_color</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -13,4 +13,23 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.BMIDetails.Launcher" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+    </style>
+
+    <style name="Theme.ToolbarFont" parent="Widget.MaterialComponents.Toolbar">
+        <!--This line changes the color of text in Toolbar-->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/raleway</item>
+    </style>
+    
+    <style name="Widget.AppCompat.EditText.New" parent="Widget.AppCompat.EditText">
+        <item name="android:state_focused">true</item>
+    </style>
+
 </resources>

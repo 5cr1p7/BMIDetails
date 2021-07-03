@@ -1,10 +1,24 @@
 <resources>
-    <string name="app_name">BMI Details</string>
+    <string name="app_name">Ramil Kapev BMI Details</string>
     <string name="mass_index_hint">0.00</string>
     <string name="share_btn_text">Share</string>
     <string name="rate_btn_text">Rate</string>
     <string name="body_mass_index_text">BODY MASS INDEX</string>
     <string name="hello_tv_text">HELLO, OLIVIA, YOU ARE NORMAL</string>
-    <string name="bmi_range_tv_text">Normal BMI range: 18.5 kg/m2 - 25 kg/m2</string>
+    <string name="bmi_range_tv_text">Normal BMI range: 18.5 kg/m2 – 25 kg/m2</string>
     <string name="ponderal_index_tv_text">Ponderal index: 10.64 kg/m3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="personal_detail_tv_text">Enter Personal Detail</string>
+    <string name="calculate_bmi_tv_text">Calculate Your Body Mass Index</string>
+    <string name="weight_tv_text">Weight</string>
+    <string name="height_tv_text">Height</string>
+    <string name="gender_tv_text">Gender</string>
+    <string name="calculate_tv_text">Calculate</string>
+    <string name="name_et_hint">Name</string>
+
+    // Error
+    <string name="error_name_is_empty">Enter the name first</string>
+    <string name="error_weight_is_zero">Choose your weight</string>
+    <string name="error_height_is_zero">Choose your height</string>
+
 </resources>

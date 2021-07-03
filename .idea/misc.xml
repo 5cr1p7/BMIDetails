@@ -3,12 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.5536044362292052" />
         <entry key="..\:/Development/AndroidProjects/BMIDetails/app/src/main/res/drawable/button_rounded_shape.xml" value="0.2415525114155251" />
         <entry key="..\:/Development/AndroidProjects/BMIDetails/app/src/main/res/drawable/rounded_corners.xml" value="0.2415525114155251" />
         <entry key="..\:/Development/AndroidProjects/BMIDetails/app/src/main/res/drawable/textview_shape.xml" value="0.2415525114155251" />
         <entry key="..\:/Development/AndroidProjects/BMIDetails/app/src/main/res/drawable/toolbar_gradient.xml" value="0.2415525114155251" />
         <entry key="..\:/Development/AndroidProjects/BMIDetails/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3188405797101449" />
+        <entry key="app/src/main/res/drawable-v23/splash_screen.xml" value="0.371875" />
+        <entry key="app/src/main/res/drawable/button_rounded_shape.xml" value="0.33055555555555555" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.19027777777777777" />
+        <entry key="app/src/main/res/drawable/ic_splash_logo.xml" value="0.33055555555555555" />
+        <entry key="app/src/main/res/drawable/rounded_corners.xml" value="0.33055555555555555" />
+        <entry key="app/src/main/res/drawable/splash_logo.xml" value="0.33055555555555555" />
+        <entry key="app/src/main/res/drawable/splash_screen.xml" value="0.31712962962962965" />
+        <entry key="app/src/main/res/drawable/textview_style.xml" value="0.33055555555555555" />
+        <entry key="app/src/main/res/font/poppins.xml" value="0.34305555555555556" />
+        <entry key="app/src/main/res/font/poppins_family.xml" value="0.34305555555555556" />
+        <entry key="app/src/main/res/font/raleway.xml" value="0.34305555555555556" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2477355072463768" />
+        <entry key="app/src/main/res/layout/fragment_add_details.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_details.xml" value="0.2" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19027777777777777" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.19027777777777777" />
+        <entry key="app/src/main/res/xml/file_path.xml" value="0.11944444444444445" />
       </map>
     </option>
   </component>
